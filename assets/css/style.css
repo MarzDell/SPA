@@ -1,0 +1,35 @@
+
+/***page***/
+.page {
+    display: none;
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    padding:15px 5px;
+}
+
+.active {
+    display:block;
+}
+
+#home {
+    background-color: #DEF0F8;
+}
+
+#find {
+    background-color: #D8E4EA;
+}
+
+#contact-us {
+    background-color: #D1D9DD;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+.medium {
+    font-size: 55px;
+    font-weight:600; 
+}

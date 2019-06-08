@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Poppins:100,200,300,400,500,600,700');
+
+
+
 /***page***/
+
 .page {
     display: none;
     width: 100%;
@@ -8,7 +12,7 @@
 }
 
 .active {
-    display:block;
+    display: block;
 }
 
 #home {
@@ -30,13 +34,14 @@ h2 {
     transition: all 0.5s;
     margin-left: 10px;
     display: inline;
-    
+
 }
 
 .medium {
     font-size: 55px;
-    font-weight:600; 
+    font-weight: 600;
 }
+
 /******Header*****/
 
 .header {
@@ -53,18 +58,18 @@ h2 {
     text-decoration: none;
     list-style-type: none;
     float: right;
-    
+
 }
 
 li {
     display: inline-block;
-   
+
 }
 
 .nav-link {
     color: black;
-    margin:15px;
-    
+    margin: 15px;
+
 }
 
 
@@ -73,24 +78,33 @@ a:hover {
     color: red;
 }
 
-
-.bg-picture {
-    height:200px;
-   display: inline-block;
-    
-}
-.details {
-    display: inline;
+/***********/
+.card {
+    display: inline-block;
+    margin-top: 25px;
 }
 
-img {
-    height:200px;
-    display:inline;
+.card-title,
+.card-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-shadow: none;
 }
 
-
+.audio-placeholder {
+    margin: 10px;
+}
 /******Footer*****/
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 
-    
+} 
 
+.col-sm-4 {
+    text-align: center;
+}

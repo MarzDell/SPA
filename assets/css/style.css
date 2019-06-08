@@ -1,11 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Poppins:100,200,300,400,500,600,700');
 /***page***/
 .page {
     display: none;
     width: 100%;
     min-height: 100%;
     position: fixed;
-    padding:15px 5px;
 }
 
 .active {
@@ -13,23 +12,85 @@
 }
 
 #home {
-    background-color: #DEF0F8;
+    background-color: #fff;
 }
 
 #find {
-    background-color: #D8E4EA;
+    background-color: #fff;
 }
 
 #contact-us {
-    background-color: #D1D9DD;
+    background-color: #fff;
 }
 
 h2 {
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
     transition: all 0.5s;
+    margin-left: 10px;
+    display: inline;
+    
 }
+
 .medium {
     font-size: 55px;
     font-weight:600; 
 }
+/******Header*****/
+
+.header {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+
+}
+
+.float {
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    
+}
+
+li {
+    display: inline-block;
+   
+}
+
+.nav-link {
+    color: black;
+    margin:15px;
+    
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+.bg-picture {
+    height:200px;
+   display: inline-block;
+    
+}
+.details {
+    display: inline;
+}
+
+img {
+    height:200px;
+    display:inline;
+}
+
+
+/******Footer*****/
+
+
+    
+

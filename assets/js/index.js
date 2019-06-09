@@ -1,10 +1,10 @@
 const app = {
     pages: [],
-    show: new Event('show'),
+    another: new Event('another'),
     init:function (){
        app.pages = document.querySelectorAll('.page');
        app.pages.forEach((pg)=>{
-           pg.addEventListener('show', app.pageShown);
+           pg.addEventListener('another', app.pageShown);
        })
        
        document.querySelectorAll('.nav-link').forEach((link)=>{
@@ -16,11 +16,11 @@ const app = {
     
     nav: function(ev){
         ev.preventDefault();
-        let currentPage = ev.target.getAttribute('data-target');
+        let currentPage = ev.target.getAttribute('target');
         document.querySelector('.active').classList.remove('active');
         document.getElementById(currentPage).classList.add('active');
         history.pushState({}, currentPage, `#${currentPage}`);
-        document.getElementById(currentPage).dispatchEvent(app.show);
+        document.getElementById(currentPage).dispatchEvent(app.another);
     },
     pageShown: function(ev){
         let h2 = ev.target.querySelector('h2');
@@ -34,7 +34,7 @@ const app = {
         let hash = location.hash.replace('#', '');
         document.querySelector('.active').classList.remove('active');
         document.getElementById(hash).classList.add('active');
-        document.getElementById(hash).dispatchEvent(app.show);
+        document.getElementById(hash).dispatchEvent(app.another);
     }
     }
 

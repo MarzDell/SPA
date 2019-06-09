@@ -19,9 +19,9 @@
         <div class='header'>
             <h2>Home</h2>
             <ul class='float'>
-                <li><a href="#" data-target='home' class='nav-link'>Home</a></li>
-                <li><a href="#" data-target='find' class='nav-link'>Find</a></li>
-                <li><a href="#" data-target='contact-us' class='nav-link'>Contact Us</a></li>
+                <li><a href="#" target='home' class='nav-link'>Home</a></li>
+                <li><a href="#" target='find' class='nav-link'>Find</a></li>
+                <li><a href="#" target='contact-us' class='nav-link'>Contact Us</a></li>
             </ul>
     </div>
 
@@ -93,9 +93,9 @@
             <div class='header'>
                 <h2>Find</h2>
                 <ul class='float'>
-                    <li><a href="#" data-target='home' class='nav-link'>Home</a></li>
-                    <li><a href="#" data-target='find' class='nav-link'>Find</a></li>
-                    <li><a href="#" data-target='contact-us' class='nav-link'>Contact Us</a></li>
+                    <li><a href="#" target='home' class='nav-link'>Home</a></li>
+                    <li><a href="#" target='find' class='nav-link'>Find</a></li>
+                    <li><a href="#" target='contact-us' class='nav-link'>Contact Us</a></li>
                 </ul>
             </div>
             <footer class="container-fluid ">
@@ -130,12 +130,36 @@
             <div class='header'>
                 <h2>Contact Us</h2>
                 <ul class='float'>
-                    <li><a href="#" data-target='home' class='nav-link'>Home</a></li>
-                    <li><a href="#" data-target='find' class='nav-link'>Find</a></li>
-                    <li><a href="#" data-target='contact-us' class='nav-link'>Contact Us</a></li>
+                    <li><a href="#" target='home' class='nav-link'>Home</a></li>
+                    <li><a href="#" target='find' class='nav-link'>Find</a></li>
+                    <li><a href="#" target='contact-us' class='nav-link'>Contact Us</a></li>
                 </ul>
             </div>
-         
+    <div class="container">
+        <div class="row form">
+            <h4 class='uppercase'>Your request</h4>
+            </div>
+            <div class="row form">
+            <form onsubmit='return sendMail(this);' method='POST'>
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Your Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Your Email" required/>
+                <div class="form-group">
+                    <label for="option">Choose the area</label>
+                    <select class="form-control" id="option" required>
+                        <option></option>
+                              <option>Sea Side</option>
+                              <option>Mountains</option>
+                              <option>Capital</option>
+                              <option>Lake Area</option>
+                              <option>Forest Area</option>
+                    </select>
+                </div>
+                <textarea rows="6" name="request" class="form-control" id="request" placeholder="Tell us more about your requests" required></textarea>
+                <button type="submit" class="btn btn-secondary center-block">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
             
             <footer class="container-fluid ">
                 <div class="row ">

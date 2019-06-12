@@ -6,9 +6,10 @@
 
 .page {
     display: none;
+   height:100%;
     width: 100%;
-    min-height: 100%;
-    position: fixed;
+   
+    
 }
 
 .active {
@@ -97,13 +98,11 @@ a:hover {
 /******Footer*****/
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
     margin: 0 auto;
-
-} 
+    position: absolute;
+   margin-top:30px;
+   padding-top:25px;
+    } 
 
 .col-sm-4 {
     text-align: center;
@@ -165,6 +164,49 @@ footer {
 /********Find Page******/
 
 #map {
-    height:450px;
+    height:400px;
     width:100%;
 }
+
+.location {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mr-3 {
+    height:150px;
+    width: 150px;
+}
+
+.mr-3:hover {
+    height:250px;
+    width: 250px;
+}
+
+.list-unstyled {
+    margin-top:20px;
+    
+}
+
+.media {
+    border: 1px solid #ced4da;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding:10px;
+}
+
+
+.media-end {
+     padding:10px;
+    color:#0040ff;
+}
+
+.query {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+

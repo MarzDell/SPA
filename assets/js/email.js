@@ -5,6 +5,7 @@ function sendMail(contactForm) {
         'option': contactForm.option.value,
         "request": contactForm.request.value
     })
+
     .then(
         function(response) {
             console.log("Success!", response);

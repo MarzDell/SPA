@@ -122,6 +122,16 @@ footer {
     margin: 20px;
 }
 
+.form-control:hover{
+    border-color: #ced4da;
+    box-shadow:none;
+}
+
+.form-control:focus {
+    border-color: grey;
+    box-shadow:none;
+}
+
 .uppercase {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -152,3 +162,9 @@ footer {
     border-color:#ff0000;
 }
 
+/********Find Page******/
+
+#map {
+    height:450px;
+    width:100%;
+}

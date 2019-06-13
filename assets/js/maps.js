@@ -6,6 +6,7 @@ function initMap(){
             lat: 49.2967851,
             lng: 19.9503393}
         };
+
         
     // New map    
       var map = new google.maps.Map(
@@ -16,20 +17,24 @@ function initMap(){
       var markers = [
         {
             coords:{lat:49.3017553, lng:19.9475927},
-        //iconImage:'',
-            content:'<h5>5 Star Hotel</h5>'
+            content:'<h5>5 Stars Hotel</h5>',
+            iconImage:'assets/icons/hotel_5stars.png'
+            
     },
         {
             coords:{lat:49.2928443, lng:19.9576864},
-            content:'<h5>Apatment</h5>'
+            content:'<h5>Apartment</h5>',
+            iconImage:'assets/icons/apartment.icon.png'
     },
         {
             coords:{lat:49.2942774, lng:19.9358511},
-            content:'<h5>House</h5>'
+            content:'<h5>House</h5>',
+            iconImage:'assets/icons/house.icon.png'
     },
         {
             coords:{lat:49.2888585, lng:19.9420309},
-            content:'<h5>3 Star Hotel</h5>'
+            content:'<h5>3 Stars Hotel</h5>',
+            iconImage:'assets/icons/hotel_3stars.png'
     },
      
           ];

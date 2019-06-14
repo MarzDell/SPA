@@ -108,7 +108,16 @@ footer {
     text-align: center;
 }
 
+.fa {
+    font-size:30px;
+}
 
+.col-sm-4 {
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    
+}
 /*******Contact****/
 
 .container {
@@ -177,6 +186,7 @@ footer {
 
 .mr-3 {
     height:200px;
+    width:100%;
    margin-right:0 !important;
 }
 
@@ -191,3 +201,41 @@ footer {
     font-size:20px;
 }
 
+
+/*************mediaQuery****/
+
+
+@media (max-width: 600px) {
+    .mr-3 {
+        height: 250px;
+        width: 100%;
+        margin-right: 0 !important;
+}        
+    .location {
+        font-size:30px;
+        font-weight: 400;
+    }
+    .query {
+        font-size:35px;
+        font-weight: 400;
+    }
+    .header {
+        text-align: left;
+    }
+    .float {
+        float:right;
+        display: inline;
+    }
+    .nav-link {
+    margin: 5px;
+    padding: 0;
+    }
+    ul.float {
+      padding:0 0 0 10px;  
+    }
+   .medium,
+    h2 {
+        font-size:20px;
+        color: grey;
+    }
+}

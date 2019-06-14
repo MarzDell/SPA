@@ -224,7 +224,7 @@ footer {
     }
     .float {
         float:none;
-        display: inline;
+        display: inline-block;
     }
     .nav-link {
     margin: 5px;

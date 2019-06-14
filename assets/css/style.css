@@ -223,7 +223,7 @@ footer {
         text-align: left;
     }
     .float {
-        float:right;
+        float:none;
         display: inline;
     }
     .nav-link {

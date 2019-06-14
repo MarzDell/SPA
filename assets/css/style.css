@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Poppins:100,200,300,400,500,600,700');
 
-
-
 /***page***/
 
 .page {
     display: none;
-   height:100%;
+    height: 100%;
     width: 100%;
-   
-    
+
+
 }
 
 .active {
@@ -35,13 +33,13 @@ h2 {
     transition: all 0.5s;
     margin-left: 10px;
     display: inline;
-
 }
 
 .medium {
     font-size: 55px;
     font-weight: 600;
 }
+
 
 /******Header*****/
 
@@ -52,37 +50,38 @@ h2 {
     width: 100%;
     height: 60px;
     padding-top: 10px;
-
 }
 
 .float {
     text-decoration: none;
     list-style-type: none;
     float: right;
-
 }
 
 li {
     display: inline-block;
-
 }
 
 .nav-link {
     color: black;
     margin: 15px;
-
 }
-
 
 a:hover {
     text-decoration: none;
     color: #ff0000;
 }
 
+
 /***********/
 .card {
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 35px;
+    
+}
+
+.card-img-top {
+    height:200px;
 }
 
 .card-title,
@@ -95,34 +94,36 @@ a:hover {
 .audio-placeholder {
     margin: 10px;
 }
+
+
 /******Footer*****/
 
 footer {
     margin: 0 auto;
     position: absolute;
-   margin-top:30px;
-   padding-top:25px;
-    } 
+    margin-top: 30px;
+    padding-top: 25px;
+}
 
 .col-sm-4 {
     text-align: center;
 }
 
 .fa {
-    font-size:30px;
+    font-size: 30px;
 }
 
 .col-sm-4 {
-    
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    
 }
+
+
 /*******Contact****/
 
 .container {
     text-align: center;
-   padding-top: 20px;
+    padding-top: 20px;
 }
 
 .form {
@@ -130,9 +131,9 @@ footer {
     margin: 20px;
 }
 
-.form-control:hover{
+.form-control:hover {
     border-color: #ced4da;
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .form-control:focus {
@@ -144,7 +145,6 @@ footer {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    
 }
 
 .form-group {
@@ -154,14 +154,12 @@ footer {
     margin-top: 15px;
 }
 
-
 .btn-secondary {
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    background-color:#e6e6e6; 
-    
-    border-color:#c0c0c0;
+    background-color: #e6e6e6;
+    border-color: #c0c0c0;
     margin-top: 15px;
 }
 
@@ -170,11 +168,12 @@ footer {
     border-color:#ff0000;
 }
 
+
 /********Find Page******/
 
 #map {
-    height:400px;
-    width:100%;
+    height: 400px;
+    width: 100%;
 }
 
 .location {
@@ -185,20 +184,20 @@ footer {
 }
 
 .mr-3 {
-    height:200px;
-    width:100%;
-   margin-right:0 !important;
+    height: 200px;
+    width: 100%;
+    margin-right: 0 !important;
 }
 
 .query {
     text-align: center;
-    font-size:40px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
-    font-weight:500;
+    font-weight: 500;
 }
 
 .text-muted {
-    font-size:20px;
+    font-size: 20px;
 }
 
 
@@ -210,32 +209,54 @@ footer {
         height: 250px;
         width: 100%;
         margin-right: 0 !important;
-}        
+    }
     .location {
-        font-size:30px;
+        font-size: 30px;
         font-weight: 400;
     }
     .query {
-        font-size:35px;
+        font-size: 35px;
         font-weight: 400;
     }
     .header {
         text-align: left;
     }
     .float {
-        float:none;
+        float: none;
         display: inline-block;
     }
     .nav-link {
-    margin: 5px;
-    padding: 0;
+        margin: 5px;
+        padding: 0;
     }
     ul.float {
-      padding:0 0 0 10px;  
+        padding: 0 0 0 10px;
     }
-   .medium,
+    .medium,
     h2 {
-        font-size:20px;
+        font-size: 20px;
         color: grey;
     }
+
+    .card {
+        margin-top: 15px;
+    }
+
+}
+    
+@media (min-width: 1200px) {
+    .nav-link {
+        font-size: 25px;
+    }
+    
+    }
+    
+    .col-sm-4 {
+        font-size: 20px;
+    }
+    
+    @media (min-width: 576px) {
+        .card-group>.card+.card {
+            border: 1px solid rgba(0, 0, 0, .125);
+        }
 }

@@ -4,10 +4,10 @@ Interactive Frontend - Milestone Project 2 -Destination Poland - Marzena Chodnic
 
 <div align='center'>
 
-[Destination Poland](https://marzdell.github.io/spa/)is a company helping people find perfect place if they would like to visit Poland, they help to organise your stay in.
+[Destination Poland](https://marzdell.github.io/spa/) is a company helping people find perfect place if they would like to visit Poland, they help to organise your stay in.
 It is for every age, pocket or amount of people. They offer stay in in hotel, apartment or house. Everyone can find something good for them.
 <br><br>
-[**View Destination Poland website here**](https://marzdell.github.io/spa/)
+[**View Destination Poland website here**](https://marzdell.github.io/spa/), 
 [** View Website Development in new platform Cloud 9 here**](https://us-east-1.console.aws.amazon.com/cloud9/ide/1e70be28b943475e814a2acd4e968f2c)
  </div>
  
@@ -263,6 +263,7 @@ The process of cloning will now be completed.
 
 
 #### Images
+
     -Images were downloaded from the webpage [**Pinterest**](https://www.pinterest.co.uk/).
   
 
@@ -272,8 +273,7 @@ The process of cloning will now be completed.
 - I used as well help from [Google Developer](https://developers.google.com/).
 - To create my websites I used help from [Bootstrap](https://getbootstrap.com/), [stackoverflow](https://stackoverflow.com/),[w3schools](https://www.w3schools.com).
 - To add Latitude, Longitude I used [lat-lng](https://lat-lng.net/)
-- 
-The code learned from the videos were not copied into the project, they were used as help and guidance to be interpreted in a different and unique way.
+
 
 ### Acknowledgements
 

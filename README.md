@@ -262,9 +262,9 @@ The process of cloning will now be completed.
 - All Content has been thought of and written by the Developer. 
 
 
-#### Images
+### Images
 
-    -Images were downloaded from the webpage [**Pinterest**](https://www.pinterest.co.uk/).
+-Images were downloaded from the webpage [Pinterest](https://www.pinterest.co.uk/).
   
 
 ### Help with code

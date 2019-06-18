@@ -17,7 +17,6 @@ It is for every age, pocket or amount of people. They offer stay in in hotel, ap
     - [**Project Purpose**](#project-purpose)
     - [**Design**](#design)
     - [**Wireframes**](#wireframes)
-    - [**Developer and Business Purpose**](#developer-and-business-purpose)
 
 2. [**Features**](#features)
     - [**Existing Features**](#existing-features)
@@ -31,7 +30,7 @@ It is for every age, pocket or amount of people. They offer stay in in hotel, ap
 
 6. [**Credits**](#credits)
     - [**Contents**](#contents)
-    - [**Media**](#media)
+    - [**Images**](#images)
     - [**Help with code**](#help-with-code)
     - [**Acknowledgements**](#acknowledgements)
 

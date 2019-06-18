@@ -8,7 +8,7 @@ Interactive Frontend - Milestone Project 2 -Destination Poland - Marzena Chodnic
 It is for every age, pocket or amount of people. They offer stay in in hotel, apartment or house. Everyone can find something good for them.
 <br><br>
 [**View Destination Poland website here**](https://marzdell.github.io/spa/), 
-[** View Website Development in new platform Cloud 9 here**](https://us-east-1.console.aws.amazon.com/cloud9/ide/1e70be28b943475e814a2acd4e968f2c)
+[**View Website Development in new platform Cloud 9 here**](https://us-east-1.console.aws.amazon.com/cloud9/ide/1e70be28b943475e814a2acd4e968f2c)
  </div>
  
  ## Contents Table

@@ -99,67 +99,86 @@
                     <li><a href="#" target='contact' class='nav-link'>Contact</a></li>
                 </ul>
             </div>
-            <div class="cont">
-                <div class="location">Choose Your Place</div>
-                <div class='uppercase query'> Once you decided send us query and we will contact you!</div>
-                <div id="map">
+<div class="cont">
+        <header class="container-fluid text-center">
+            <div id="main-header">
+                <h1 class="query">Choose Your Destination</h1>
+            </div>
+        </header>
+        
+        <div class="cont">
+            <div id="map"></div>
+        </div>
+        <article class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h4 class="destination">Choose City:</h4>
+                    <div class="cityselection">
+                        <input id="autocomplete" placeholder="Enter a city" type="text"/>
+                    </div>
+                    <div id="poibuttons">
+                        <form class='mapcheck'>
+                            <a href="#find">
+                                <div class="btn btn-secondary btn-lg center-block" onclick="onPlaceChanged(['lodging'])">Accommodation</div>
+                            </a>
+                            <a href="#find">
+                                <div class="btn btn-secondary btn-lg center-block" onclick="onPlaceChanged(['bar', 'restaurant'])">Bars/Restaurants</div>
+                            </a>
+                            <a href="#find">
+                                <div class="btn btn-secondary btn-lg center-block" onclick="onPlaceChanged(['museum'])">Tourist Attractions</div>
+                            </a>
+                        </form>
+        
+                        <div id="button" class="btn btn-secondary btn-lg center-block" onclick='reset()'>Start Over</div>
+                    </div>
+
+
+
+                <div class="results">
+                    <h4 class="results">Results:</h4>
                 </div>
-                <div class="card-deck">
-                    <div class="card">
-                        <img src="assets/pictures/5-stars-hall.jpg" class="mr-3" alt="Hall">
-                        <img src="assets/pictures/5-stars-bedroom.jpg" class="mr-3" alt="Bedroom">
-                    
-                        <img src="assets/pictures/5-stars-bathroom.jpg" class="mr-3" alt="Bathroom">
-                        <div class="card-body">
-                            <h5 class="card-title">5 Star Hotel</h5>
-                            <p class="card-text">Each modern and bright room here will provide you with a flat-screen TV, a balcony and a minibar, as well as a safe. Featuring a shower private bathrooms also come with a hairdryer and free toiletries. Extras include a sofa and a seating area
-                                and hypoallergenic linen. Modern spa facilities here include a steam sauna and Turkish sauna. There is a ski school and children can enjoy a kid’s club and a playground. Guests also have access to a bar and a terrace. Guests at Hotel can enjoy
-                                a breakfast incuded in the price.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">1 night/£70</small>
-                        </div>
+                <div id="resultsdropdown"></div>
+                <div id="listing">
+                    <table id="resultsTable">
+                        <tbody id="results"></tbody>
+                    </table>
+                </div>
+                <div style="display: none">
+                    <div id="info-content">
+                        <table>
+                            <tr id="iw-url-row" class="iw_table_row">
+                                <td id="iw-icon" class="iw_table_icon"></td>
+                                <td id="iw-url"></td>
+                            </tr>
+                            <tr id="iw-address-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Address:</td>
+                                <td id="iw-address"></td>
+                            </tr>
+                            <tr id="iw-phone-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Telephone:</td>
+                                <td id="iw-phone"></td>
+                            </tr>
+                            <tr id="iw-rating-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Rating:</td>
+                                <td id="iw-rating"></td>
+                            </tr>
+                            <tr id="iw-website-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Website:</td>
+                                <td id="iw-website"></td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="card">
-                        <img src="assets/pictures/living-room-apartment.jpg" class="mr-3" alt="Living Room">
-                        <img src="assets/pictures/bedroom-apartment.jpg" class="mr-3" alt="Bedroom">
-                        <img src="assets/pictures/bathroom-aprtment.jpg" class="mr-3" alt="Bathroom">
-                        <div class="card-body">
-                            <h5 class="card-title">Apartment</h5>
-                            <p class="card-text">Guests are getting more for their money when compared to other properties in this city. The apartment features 1 bedroom, a flat-screen TV, an equipped kitchen with a dishwasher and a fridge, a washing machine, and 1 bathroom with a bath.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">1 night/£50</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/pictures/living-room-house.jpg" class="mr-3" alt="Living Room">
-                        <img src="assets/pictures/bedroom-house.jpg" class="mr-3" alt="Bedroom">
-                        <img src="assets/pictures/bathroom-house.jpg" class="mr-3" alt="Bathroom">
-                        <div class="card-body">
-                            <h5 class="card-title">House</h5>
-                            <p class="card-text">Boasting garden views, House offers accommodation with a patio and a fireplace, This holiday home has 4 bedrooms, 2 bathrooms with baths, a cable flat-screen TV, a dining area, and a kitchen with all facilities needed for family holidays.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">1 night/£60</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/pictures/3-stars-restaurant.jpg" class="mr-3" alt="Restaurant">
-                        <img src="assets/pictures/3-stars-bedroom.jpg" class="mr-3" alt="Bedroom">
-                    
-                        <img src="assets/pictures/3-stars-bathroom.jpg" class="mr-3" alt="Bedroom">
-                        <div class="card-body">
-                            <h5 class="card-title">3 Star Hotel</h5>
-                            <p class="card-text">Hotel Patrycja has a garden, fitness centre, a bar and shared lounge in Zakopane. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi. All the hotel rooms have a private bathroom.
-                                Guests at Hotel Patrycja can enjoy a buffet breakfast. The accommodation offers a terrace. A variety of popular activities are available in the area, including skiing and cycling.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">1 night/£40</small>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </article>
+
+
+
+
+</div>
         <footer class="container-fluid ">
             <div class="row ">
                 <div class="col-sm-4 ">
@@ -202,16 +221,7 @@
                 <form onsubmit='return sendMail(this);' method='POST'>
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required/>
                     <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Your Email" required/>
-                    <div class="form-group">
-                        <label for='option'>Choose Your Place</label>
-                        <select class="form-control" id="option" required>
-                            <option label='empty'></option>
-                            <option>5 Star Hotel</option>
-                            <option>Apartment</option>
-                            <option>House</option>
-                            <option>3 Star Hotel</option>                       
-                        </select>
-                    </div>
+                    <input type="text" name="text" class="form-control" id="text" placeholder="Your Destination" required/>
                     <textarea rows="6" name="request" class="form-control" id="request" placeholder="Tell us more about your requests" required></textarea>
                     <button type="submit" class="btn btn-secondary btn-lg center-block">Submit</button>
                 </form>
@@ -249,7 +259,7 @@
     <script src="assets/js/email.js"></script>
     <script src="assets/js/maps.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbJcRvpzVXdSzzFjdfik_oLBTwGVsGnbY&callback=initMap">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbJcRvpzVXdSzzFjdfik_oLBTwGVsGnbY&libraries=places&callback=initMap" async defer >
     </script>
 </body>
 </html>

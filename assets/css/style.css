@@ -131,6 +131,9 @@ footer {
     margin: 20px;
 }
 
+.form-control{
+    
+}
 .form-control:hover {
     border-color: #ced4da;
     box-shadow: none;
@@ -176,18 +179,14 @@ footer {
     width: 100%;
 }
 
-.location {
+#poibuttons{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 50px;
     text-align: center;
+    margin-left: 30px;
 }
 
-.mr-3 {
-    height: 200px;
-    width: 100%;
-    margin-right: 0 !important;
-}
 
 .query {
     text-align: center;
@@ -196,9 +195,17 @@ footer {
     font-weight: 500;
 }
 
-.text-muted {
-    font-size: 20px;
+h4,
+.mapcheck,
+#poibuttons,
+.cityselection {
+    display: inline-block;
 }
+
+.cityselection {
+    margin-left: 20px;
+}
+
 
 
 /*************mediaQuery****/

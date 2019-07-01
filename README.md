@@ -85,15 +85,15 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/).
 
 - #### Desktop Wireframes
 
-    - [Main - Desktop Display](wireframes/desktop/main-desktop-display.png) 
-    - [Find Page](wireframes/desktop/Find-page-desktop-display.png)
-    - [Contact Page](wireframes/desktop/contact-page-desktop-display.png)
+    - [Main - Desktop Display](assets/wireframes/desktop/main.png) 
+    - [Find Page](assets/wireframes/desktop/Find-page-desktop-display.png)
+    - [Contact Page](assets/wireframes/desktop/contact-page-desktop-display.png)
     
 - #### Tablet Wireframes
 
-    - [Main - Tablet Display](wireframes/tablet/main-tablet-display.png)
-    - [Find Page - Tablet Display](wireframes/tablet/contact-page-tablet-display.png)
-    - [Contact Page - Tablet Display](wireframes/contact-page-tablet-display.png)
+    - [Main - Tablet Display](assets/wireframes/tablet/main-tablet-display.png)
+    - [Find Page - Tablet Display](assets/wireframes/tablet/contact-page-tablet-display.png)
+    - [Contact Page - Tablet Display](assets/wireframes/contact-page-tablet-display.png)
 
 - #### Mobile Wireframes
 

@@ -6,8 +6,6 @@
     display: none;
     height: 100%;
     width: 100%;
-
-
 }
 
 .active {
@@ -40,7 +38,6 @@ h2 {
     font-weight: 600;
 }
 
-
 /******Header*****/
 
 .header {
@@ -72,16 +69,15 @@ a:hover {
     color: #ff0000;
 }
 
-
 /***********/
+
 .card {
     display: inline-block;
     margin-top: 35px;
-    
 }
 
 .card-img-top {
-    height:200px;
+    height: 200px;
 }
 
 .card-title,
@@ -94,7 +90,6 @@ a:hover {
 .audio-placeholder {
     margin: 10px;
 }
-
 
 /******Footer*****/
 
@@ -118,7 +113,6 @@ footer {
     font-weight: 200;
 }
 
-
 /*******Contact****/
 
 .container {
@@ -131,9 +125,10 @@ footer {
     margin: 20px;
 }
 
-.form-control{
-    margin-top:5px;
+.form-control {
+    margin-top: 5px;
 }
+
 .form-control:hover {
     border-color: #ced4da;
     box-shadow: none;
@@ -141,7 +136,7 @@ footer {
 
 .form-control:focus {
     border-color: grey;
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .uppercase {
@@ -167,10 +162,9 @@ footer {
 }
 
 .btn-secondary:hover {
-    background-color:#ff0000; 
-    border-color:#ff0000;
+    background-color: #ff0000;
+    border-color: #ff0000;
 }
-
 
 /********Find Page******/
 
@@ -179,14 +173,13 @@ footer {
     width: 100%;
 }
 
-#poibuttons{
+#poibuttons {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 50px;
     text-align: center;
     margin-left: 30px;
 }
-
 
 .query {
     text-align: center;
@@ -207,9 +200,7 @@ h4,
 }
 
 
-
 /*************mediaQuery****/
-
 
 @media (max-width: 600px) {
     .mr-3 {
@@ -250,20 +241,20 @@ h4,
     }
 
 }
-    
+
 @media (min-width: 1200px) {
     .nav-link {
         font-size: 25px;
     }
-    
+
+}
+
+.col-sm-4 {
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .card-group>.card+.card {
+        border: 1px solid rgba(0, 0, 0, .125);
     }
-    
-    .col-sm-4 {
-        font-size: 20px;
-    }
-    
-    @media (min-width: 576px) {
-        .card-group>.card+.card {
-            border: 1px solid rgba(0, 0, 0, .125);
-        }
 }

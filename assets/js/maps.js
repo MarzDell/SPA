@@ -7,14 +7,15 @@
 
   var countries = {
     'pl': {
-      center: { lat: 52.0119369 , lng:  19.3645017 },
+      center: { lat: 52.0119369, lng: 19.3645017 },
       zoom: 4
     }
   };
 
-function reset() {
+  function reset() {
     location.reload();
   }
+
   function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
       zoom: countries.pl.zoom,
@@ -49,7 +50,7 @@ function reset() {
     else {
       document.getElementById('autocomplete').placeholder = 'Enter a city';
     }
-   
+
   }
 
   // Search for hotels, bars/restaurants & tourist attractions in the selected city, within the viewport of the map.

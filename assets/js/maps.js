@@ -15,7 +15,6 @@
 function reset() {
     location.reload();
   }
- 
   function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
       zoom: countries.pl.zoom,

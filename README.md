@@ -93,13 +93,13 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/).
 
     - [Main - Tablet Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/home-page-tablet-display.png)
     - [About Page - Tablet Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/about-page-tablet-display.png)
-    - [Contact Page - Tablet Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/contact-page-tablet-display.png)
+    - [Contact Page - Tablet Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/contact-page-tablet-display.png)
 
 - #### Mobile Wireframes
 
-    - [Main - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/home-page-mobile-display.png)
-    - [About - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/about-page-mobile-display.png)
-    - [Contact Page - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/contact-page-mobile-display.png)
+    - [Main - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/mobile/home-page-mobile-display.png)
+    - [About - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/mobile/about-page-mobile-display.png)
+    - [Contact Page - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/mobile/contact-page-mobile-display.png)
 
 ## Features
 

@@ -60,9 +60,9 @@ The design of the page is minimalism and easy to move around the pages which hel
     
     - **All Pages -** A white background with black text was chosen to keep minimalism and ensure that is easily displayed for all age of our users.
     
-    - **Links -** A red colour has been chosen once hoverring on each link which make nice contrast between the background and links.
+    - **Links -** A red colour has been chosen once hovering on each link which make nice contrast between the background and links.
     
-    - **Submit Button -**A delicate grey colour was choosen to make soft accent on the **Contact Page**, as well hoverring on the button will change on red which matching the 
+    - **Submit Button -**A delicate grey colour was chosen to make soft accent on the **Contact Page**, as well hovering on the button will change on red which matching the 
     link settings.
     
     - **Pictures -** All theme of pictures are the same which make nice and good connection between the pages.
@@ -70,14 +70,14 @@ The design of the page is minimalism and easy to move around the pages which hel
    
 - #### Styling
 
-    Styles of the each page was choosen to match all, that the user changing the page from one to another willl see the connection as well as pictures.
+    Styles of the each page was chosen to match all, that the user changing the page from one to another will see the connection as well as pictures.
     I tried to keep minimalism and do not add too much content on pages as some of the users may leave the page due too overloaded pages.
     As well my styling fits to every age of the users as it is simple and tidy.
 
     
-- #### Images
+- #### Website images
 
-    All images have been choosen to match and have been downloaded from pinteres. 
+    All images have been chosen to match and have been downloaded from pinterest. 
     
 ### Wireframes
 
@@ -85,21 +85,21 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/).
 
 - #### Desktop Wireframes
 
-    - [Main - Desktop Display](assets/wireframes/desktop/main.png) 
-    - [Find Page](assets/wireframes/desktop/Find-page-desktop-display.png)
-    - [Contact Page](assets/wireframes/desktop/contact-page-desktop-display.png)
+    - [Main - Desktop Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/desktop/home-page-desktop-display.png)
+    - [About Page](https://github.com/MarzDell/spa/blob/master/assets/wireframes/desktop/about-page-desktop-display.png)
+    - [Contact Page](https://github.com/MarzDell/spa/blob/master/assets/wireframes/desktop/contact-page-desktop-display.png)
     
 - #### Tablet Wireframes
 
-    - [Main - Tablet Display](assets/wireframes/tablet/main-tablet-display.png)
-    - [Find Page - Tablet Display](assets/wireframes/tablet/contact-page-tablet-display.png)
-    - [Contact Page - Tablet Display](assets/wireframes/contact-page-tablet-display.png)
+    - [Main - Tablet Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/home-page-tablet-display.png)
+    - [About Page - Tablet Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/about-page-tablet-display.png)
+    - [Contact Page - Tablet Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/contact-page-tablet-display.png)
 
 - #### Mobile Wireframes
 
-    - [Main - Mobile Display](assets/wireframes/tablet/main-mobile-display.png)
-    - [Find Page - Mobile Display](assets/wireframes/tablet/find-page-mobile-display.png)
-    - [Contact Page - Mobile Display](assets/wireframes/tablet/contact-page-mobile-display.png)
+    - [Main - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/home-page-mobile-display.png)
+    - [About - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/about-page-mobile-display.png)
+    - [Contact Page - Mobile Display](https://github.com/MarzDell/spa/blob/master/assets/wireframes/tablet/contact-page-mobile-display.png)
 
 ## Features
 
@@ -114,7 +114,7 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/).
     
     <br>
     
-    <img src='assets/wireframes/features/main.png'  height="400" alt="Home Page">
+    <img src='assets/wireframes/features/home.png'  height="400" alt="Home Page">
     <br><br>
     
 2. #### Find Page 
@@ -128,24 +128,24 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/).
     
     <br>
     <div align="center">  
-    <img src='assets/wireframes/features/find.png'  width=400 alt="Find Page">
+    <img src='assets/wireframes/features/about.png'  width=400 alt="About Page">
     </div><br><br>    
     
     
 3. #### 'Contact Page'
 
-    - It is form that user can fill up with option that he/she can choose. User has option to describe special request, add any question or any other requirments. 
+    - It is form that user can fill up with option that he/she can choose. User has option to describe special request, add any question or any other requirements. 
     
-        **The form contian:**
+        **The form contains:**
         
         - **Name** -User can write her/his name.
         - **Email** - User can put her/his email, it is required to write valid email
-        - **Options** - User can choose option from the list.
+        - **Destination** - User can choose option from the list.
         - **Text Area** -User can write message and describe all question which they would like to be emailed back to her/him.
     
     <br>
     <div align="center">  
-    <img src='assets/wireframes/features/contact.png'   width=320 alt="Contact Page">
+    <img src='assets/wireframes/features/contact-us.png'   width=320 alt="Contact Page">
     </div><br><br>
 
 
@@ -160,13 +160,13 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/).
 
 2. #### New Page *Feedbacks and Help*
 
-    -Adding feature that can allow users leaves any feedbacks about the company or one of the accommodation. 
+    -Adding feature that can allow users leaves any feedback about the company or one of the accommodation. 
     
-    -Fast communication between the user which choose one of the options and helpdesk.
+    -Fast communication between the user which choose one of the options and help desk.
     
 3. #### Contact Page
 
-    - A feature that will allow user send seperate request if they would like the company to find their own place which is not in options.
+    - A feature that will allow user send separate request if they would like the company to find their own place which is not in options.
 
   
 ## Technologies Used
@@ -277,9 +277,12 @@ The process of cloning will now be completed.
 ### Acknowledgements
 
 - Spencer Barriball (spence_mentor) - For discussing ideas, providing help with project and any ideas related to the project. 
-    As well offering me help outside of mentor session if I will need anything or if i will occure issue that I cannot solve by myself.
+    As well offering me help outside of mentor sessions if I will need anything or if i have an issue that I cannot solve by myself.
 
 - Website about minimalism- [becomingminimalist](https://www.becomingminimalist.com/) 
+
+
+
 
 
 
